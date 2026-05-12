@@ -1,0 +1,57 @@
+// hero styles
+
+body {
+    background-color: var(--clr-neutral-0);
+    color: var(--clr-neutral-700);
+    font-family: var(--ff-body);
+
+
+}
+.hero__section{
+    background:url('../assets/images/pattern-light-bg.svg') var(--clr-neutral-100);
+    
+    background-size: cover;
+
+}
+
+.title__hero {
+    max-inline-size: 15ch;
+    font: var(--font-1);
+    letter-spacing: var(--ls-1);
+  color: transparent;
+    background: var(--clr-txt-gradient);
+    background-clip: text;
+    margin-top:var(--spacing-300);
+    margin-bottom: var(--spacing-150);
+}
+ .wrapper__hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+  
+
+    
+ }
+
+.hero_text {
+    max-inline-size: 40ch;
+   
+    font: var(--font-5);
+    letter-spacing: var(--ls-5);
+    
+}
+
+.btn{
+    display: inline-block;
+    padding: var(--spacing-100) var(--spacing-200);
+    background-color: var(--clr-salmon-50);;
+    color: var(--clr-neutral-900);
+    font: var(--font-6-mobile);
+    letter-spacing: var(--ls-6);
+    border-radius: var(--radius-8);
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    border:2px solid var(--clr-neutral-900);
+    margin-top: var(--spacing-200);
+}
