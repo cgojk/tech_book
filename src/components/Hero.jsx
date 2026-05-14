@@ -6,6 +6,7 @@ import logo from "../assets/images/logo.svg";
 import avatars from "../assets/images/image-avatars.webp";
 import stars from "../assets/images/icon-star.svg";
 import arrow from "../assets/images/icon-arrow-down.svg";
+import Testimonials from "./Testimonials";
 
 
 
@@ -13,13 +14,13 @@ import arrow from "../assets/images/icon-arrow-down.svg";
 
 export default function Hero(){
     return (
- <section className="hero__section">
+ <section className="hero__section pattern__glow">
    
        <header>
         <img src={logo} className="logo-image" loading="lazy" alt="A  book with a logo " />
         
        </header>
-    <div className="hero pattern__glow">
+    <div className="hero ">
   
      
         <div className="wrapper__hero-content ">
@@ -35,24 +36,9 @@ export default function Hero(){
                 <img src ={arrow} alt="Arrow pointing down" className="arrow-image" />
                 </Link>
             </div>
-            <div className="testimonials">
-                <div className="testimonial-avatars">
-                  <img className="testimonial-avatar" src={avatars} alt="Avatars of book club members" />
-                </div>
-                <div className="testimonial-info">
-                          <ul className="stars">
-                            <li><img src={stars} alt="5 star rating" /></li>
-                            <li><img src={stars} alt="5 star rating" /></li>
-                            <li><img src={stars} alt="5 star rating" /></li>
-                            <li><img src={stars} alt="5 star rating" /></li>
-                            <li><img src={stars} alt="5 star rating" /></li>
-                        </ul>
-                        <p className="testimonial-text">200+ developers joind already</p>
-                       
-                </div>
-            </div>
+             <Testimonials />
             <div className="image__hero">
-                <img src={imageIntro} alt="Illustration of people reading books" />
+            <img src={imageIntro} alt="Illustration of people reading books" />
                 
             </div>
 
