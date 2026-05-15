@@ -21,6 +21,10 @@
 
     text-rendering: optimizeLegibility;
   }
+  #root {
+  display: flex;
+  flex-direction: column;
+}
 
   :where(
     body,

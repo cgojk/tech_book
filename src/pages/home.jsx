@@ -13,12 +13,14 @@ export default function Home () {
     return (
         <>
            <Hero/>
-      
+          <main>
            <FirstSection/>
             <SecondSection/>
             <ThirdSection/>
             <FourSection/>
             <FithSection/>
+
+            </main>
             <Footer/>
 
      

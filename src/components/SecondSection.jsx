@@ -7,8 +7,8 @@ import readinggroup from "../assets/images/image-not-average-mobile.webp";
 
 export default function SecondSection(){
     return (
- <section className="section__reading__average">
-       <div className="wrapper__reading__average">      
+ <section className="section__reading__average container logos__tech ">
+       <div className="wrapper__reading__average  ">      
             <h2 className="title__reading_average">Not your average book <span className="circle__pattern">
                
                 </span>club</h2>

@@ -8,6 +8,7 @@ import linkedinIcon from "./../assets/images/logo-linkedin.svg";
 export default function Footer(){
     return (
         <section className="footer">
+            
             <div className="wrapper__footer">
                 <h2 className="title__footer">Ready to debug your reading list?</h2>
                 <Link to="/review memberships" className="btn btn-footer"> <span> Review membership options </span>

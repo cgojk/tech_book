@@ -11,7 +11,7 @@ import Membershipdata from "../Membershipdata.js";
 
  export default function FourSection(){
 return (
-    <section className="section__membership">
+    <section className="section__membership container">
         <div className="wrapper__memberships">      
              <h2 className="title__membership">Membership Options</h2>
                 <ul className="membership__content">

@@ -7,7 +7,7 @@ import imageReading from "../assets/images/image-read-together-mobile.webp";
 
 export default function FirstSection(){
     return (
- <section className="section__reading">
+ <section className="section__reading container">
        <div className="wrapper__reading">      
             <h1 className="title__reading">Read Together, grow together</h1>
                     <ul className="reasonsreading__content">

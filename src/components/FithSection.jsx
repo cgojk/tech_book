@@ -5,7 +5,7 @@ import stars from "./../assets/images/icon-star.svg";
 
 export default function FithSection(){
     return (
- <section className="section__testimonials">
+ <section className="section__testimonials container">
        <div className="wrapper__testimonial">     
               <img src={stars} alt="Stars pattern" className="stars__pattern" />
               <img src={stars} alt="Stars pattern" className="stars__pattern" />
@@ -13,10 +13,10 @@ export default function FithSection(){
               <img src={stars} alt="Stars pattern" className="stars__pattern" />
               <img src={stars} alt="Stars pattern" className="stars__pattern" />
         </div>
-         <div className="testimonial__content">
-                  <blockquote>"This book cluc transformed my 
+         <div className="testimonial__content sm__container">
+                  <p className="testimonial__text-content">"This book cluc transformed my 
                         technical reading from a solitary activity into an enriching community
-                        experience. The discussions are gold!".</blockquote>
+                        experience. The discussions are gold!".</p>
                       <p className="testimonial__author">- Sarah Chen, Software Architect</p>
          </div>
  </section>

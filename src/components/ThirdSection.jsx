@@ -7,7 +7,7 @@ import React from "react";
 export default function ThirdSection(){
     return (
  <section className="section__reading-journey pattern__glow">
-       <div className="wrapper__journey">      
+       <div className="wrapper__journey container ">      
             <h2 className="title__reading-journey">Your tech reading journey</h2>
                <ul className="journey__content">
                     <li className="journey__item"><span className="journey__icon">1</span>Choose your membership tier.</li>
