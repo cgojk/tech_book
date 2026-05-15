@@ -55,6 +55,7 @@
         grid-template-areas:"image text";
         grid-auto-flow:dense;
        gap: clamp(2rem, 4vw, 5rem);
+       margin-top: var(--spacing-800);
 
         
         .wrapper__reading{
