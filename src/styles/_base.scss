@@ -117,7 +117,7 @@ main{
     gap: var(--spacing-150);
     margin-top: var(--spacing-250);
     margin-bottom:var(--spacing-800);
-    justify-content: center;
+    // justify-content: center;
 }
 .testimonial-avatar{
     width:110px;
@@ -432,6 +432,7 @@ color: var(--clr-neutral-0);
 
     .testimonials{
         margin-bottom:var(--spacing-800);
+        justify-content: center;
     }
 }
 

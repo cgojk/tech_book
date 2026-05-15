@@ -41,6 +41,10 @@
         display:grid;
         grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-400);
+
+        .testimonials{
+            text-align: left;
+        }
     }
     .info__hero{
         margin-top:var(--spacing-600);
