@@ -11,7 +11,7 @@ This is a solution to the [Tech book club landing page challenge on Frontend Men
 ### Links
 
 - Solution URL:https://github.com/cgojk/tech_book.git
-- Live Site URL:
+- Live Site URL:https://tranquil-bonbon-daebc9.netlify.app/
 
 ## My process
 
