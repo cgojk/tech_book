@@ -13,7 +13,7 @@ export default function FithSection(){
               <img src={stars} alt="Stars pattern" className="stars__pattern" />
               <img src={stars} alt="Stars pattern" className="stars__pattern" />
         </div>
-         <div className="testimonial__content sm__container">
+         <div className="testimonial__content ">
                   <p className="testimonial__text-content">"This book cluc transformed my 
                         technical reading from a solitary activity into an enriching community
                         experience. The discussions are gold!".</p>

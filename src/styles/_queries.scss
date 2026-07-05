@@ -42,9 +42,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-400);
 
-        .testimonials{
-            text-align: left;
-        }
+        
     }
     .info__hero{
         margin-top:var(--spacing-600);
@@ -55,7 +53,6 @@
 
     .section__reading{
         display:grid;
-        grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
         grid-template-areas:"image text";
         grid-auto-flow:dense;
        gap: clamp(2rem, 4vw, 5rem);

@@ -62,7 +62,7 @@ export default function Hero(){
                         />
                         </picture>
            
-                </div>
+         </div>
          </div>
 
      </div>

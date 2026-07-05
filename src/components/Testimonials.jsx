@@ -22,7 +22,7 @@ export default function Testimonials(){
                         </ul>
                         <p className="testimonial-text">200+ developers joind already</p>
                        
-                </div>
+        </div>
 
     </div>
 </>

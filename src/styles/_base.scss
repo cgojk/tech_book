@@ -43,6 +43,8 @@ main{
     background-clip: text;
     margin-top:var(--spacing-600);
     margin-bottom: var(--spacing-300);
+    --webkit-background-clip: text;
+    --webkit-text-fill-color: transparent;
 }
  .wrapper__hero-content {
     display: flex;
@@ -60,7 +62,7 @@ main{
 }
 .btn {
   display: flex;
-//   width: fit-content;
+
   width:100%;
   align-items: center;
   gap: var(--spacing-100);
@@ -117,7 +119,7 @@ main{
     gap: var(--spacing-150);
     margin-top: var(--spacing-250);
     margin-bottom:var(--spacing-800);
-    // justify-content: center;
+    
 }
 .testimonial-avatar{
     width:110px;
